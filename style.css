@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainPortfolio {
+    height: 100%;
+    width: 100%;
+    background-image: url('./sand.jpeg');
+}
+
+.calculatorPortfolio {
+    height: 80vh;
+    width: 500px;
+    background: rgba(25, 128, 163, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+
+.calculatorHead {
+    height: 15%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin: 0 40px 0 40px;
+}
+
+.calculatorBody {
+    height: 75%;
+    margin: 0 40px 0 40px;
+}
+
+.calculatorBody input {
+    height: 10%;
+    width: 99%;
+}
+
+.calculatorBtns {
+    display: grid;
+    height: 85%;
+    width: 100%;
+    grid-template-columns: 60% 1fr;
+}
+
+.numBtns {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.operationBtns,
+.numberBtns {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.opeBtns {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainPortfolio">
+        <div class="calculatorPortfolio">
+            <div class="calculatorHead">
+                <h1>Calculator</h1>
+            </div>
+            <div class="calculatorBody">
+                <input type="text" id="inputText" class="inputText" value="">
+
+                <div class="calculatorBtns">
+                    <div class="numberBtns">
+                        <button class="numBtns" value="1" onclick="display('1')">1</button>
+                        <button class="numBtns" value="2" onclick="display('2')">2</button>
+                        <button class="numBtns" value="3" onclick="display('3')">3</button>
+                        <button class="numBtns" value="4" onclick="display('4')">4</button>
+                        <button class="numBtns" value="5" onclick="display('5')">5</button>
+                        <button class="numBtns" value="6" onclick="display('6')">6</button>
+                        <button class="numBtns" value="7" onclick="display('7')">7</button>
+                        <button class="numBtns" value="8" onclick="display('8')">8</button>
+                        <button class="numBtns" value="9" onclick="display('9')">9</button>
+                        <button class="numBtns" value="0" onclick="display('0')">0</button>
+                    </div>
+                    <div class="operationBtns">
+                        <button class="opeBtns" value="+" onclick="display('+')">+</button>
+                        <button class="opeBtns" value="-" onclick="display('-')">-</button>
+                        <button class="opeBtns" value="*" onclick="display('*')">*</button>
+                        <button class="opeBtns" value="/" onclick="display('/')">/</button>
+                        <button class="opeBtns" value="%" onclick="display('%')">%</button>
+                        <button class="opeBtns" value="^2" onclick="display('**2')">x²</button>
+                        <button class="opeBtns" onclick="calculate()">=</button>
+                        <button class="opeBtns " onclick="clearText() ">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="main.js "></script>
+
+</html>
